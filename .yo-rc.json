@@ -1,0 +1,32 @@
+{
+  "generator-jhipster": {
+    "additionalSubGenerators": "playwright",
+    "baseName": "playwright",
+    "cli": true,
+    "generators": {
+      "app": {
+        "command": false,
+        "priorities": ["prompting"],
+        "sbs": true,
+        "written": true
+      },
+      "client": {
+        "command": false,
+        "priorities": ["prompting", "composing"],
+        "sbs": true,
+        "written": true
+      },
+      "playwright": {
+        "command": false,
+        "priorities": [],
+        "sbs": null,
+        "written": true
+      }
+    },
+    "jhipsterVersion": "7.8.1",
+    "prettierDefaultIndent": 2,
+    "projectName": "Playwright Blueprint",
+    "skipCommitHook": true,
+    "subGenerators": ["app", "client"]
+  }
+}
